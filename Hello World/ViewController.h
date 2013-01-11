@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@interface ViewController : UIViewController <UITextFieldDelegate>
+@property (copy, nonatomic) NSStream *userName;
 
-@interface ViewController : UIViewController
 
 @end
